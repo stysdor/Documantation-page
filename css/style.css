@@ -48,7 +48,7 @@ body, html {
 }
 
 #navbar .nav-link a:hover {
-	font-weight: bold;
+	font-weight: 500;
 }
 
 /***** Style documentation ***************/
@@ -70,6 +70,9 @@ body, html {
  	#navbar {
 		border: 2px solid var(--text-color);
 		padding: 0;
+		width: 32.5%;
+		position: fixed;
+		top: 0;
 	}
 	#navbar .list-sections {
 		overflow: auto;
